@@ -75,5 +75,12 @@
 //   }
 // }
 // console.log(addUp(4))
-
-
+//7-masala -------------------------------------------------------
+// function addUp(number) {
+//   if (number == 1) {
+//     return number;
+//   } else {
+//     return number ** 2 + addUp(number - 1);
+//   }
+// }
+// console.log(addUp(10));
