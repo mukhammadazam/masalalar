@@ -104,3 +104,13 @@
 //   }
 // }
 // console.log(functionR('salom', 3))
+//10-masala-----------------------------------------------------------------------
+
+// function name1(n) {
+//   if (n == 0 || n === 1) {
+//   return 1;
+//   }else{
+//     return n*name1(n-1)
+//   }
+// }
+// console.log(name1(5));
