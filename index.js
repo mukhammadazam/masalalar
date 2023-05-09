@@ -42,27 +42,38 @@
 //     return false;
 //   }
 // }
-// 5-masala
-function baseFun(num, base) {
-  const digits = "0123456789ABCDEF";
-  if (num < base) {
-    return digits[num];
-  } else {
-    return (
-      baseFun(Math.floor(num / base), base) + digits[num % base]
-    );
-  }
-}
-let num = 123;
-let bir = baseFun(10, 2);
-let ikki = baseFun(1642, 8);
-let uch = baseFun(212,16);
+// // 5-masala
+// function baseFun(num, base) {
+//   const digits = "0123456789ABCDEF";
+//   if (num < base) {
+//     return digits[num];
+//   } else {
+//     return (
+//       baseFun(Math.floor(num / base), base) + digits[num % base]
+//     );
+//   }
+// }
+// let num = 123;
+// let bir = baseFun(10, 2);
+// let ikki = baseFun(1642, 8);
+// let uch = baseFun(212,16);
 
-// console.log(bir);
-console.log(ikki);
-console.log(uch);
-function func(param){
-    // let sum;
-   
-}
-console.log(func(4));
+// // console.log(bir);
+// console.log(ikki);
+// console.log(uch);
+// function func(param){
+//     // let sum;
+
+// }
+// console.log(func(4));
+// 6-masala -------------------------------------
+// function addUp(number) {
+//   if (number == 1) {
+//     return number;
+//   } else {
+//   return  number + addUp(number - 1);
+//   }
+// }
+// console.log(addUp(4))
+
+
