@@ -85,12 +85,22 @@
 // }
 // console.log(addUp(10));
 // 8-masala ------------------------------------------------------------------
-function multiSum(p1, p2 = 10) {
-  if (p2 == 0) {
-    return 0;
-  } else {
-    num = p1 * p2 + multiSum(p1, p2 - 1);
-    return num;
-  }
-}
-console.log(multiSum(6));
+// function multiSum(p1, p2 = 10) {
+//   if (p2 == 0) {
+//     return 0;
+//   } else {
+//     num = p1 * p2 + multiSum(p1, p2 - 1);
+//     return num;
+//   }
+// }
+// console.log(multiSum(6));
+// 9-masala----------------------------------------------------------------------
+
+// function functionR(param1, param2) {
+//   if (param2 == 0) {
+//     return "";
+//   } else {
+//     return param1 + functionR(param1, param2 - 1);
+//   }
+// }
+// console.log(functionR('salom', 3))
