@@ -114,3 +114,15 @@
 //   }
 // }
 // console.log(name1(5));
+
+function massivYigindisi(massiv) {
+  if (massiv.length === 0) {
+    // massiv bo'shlig'i
+    return 0;
+  } else {
+    return massiv[0] + massivYigindisi(massiv.slice(1)); // massivning 1 dan sari qismi
+  }
+}
+const massiv = [1, 2, 3, 4, 5];
+const yigindi = massivYigindisi(massiv);
+console.log(yigindi); // 15
