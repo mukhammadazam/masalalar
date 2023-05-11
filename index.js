@@ -129,6 +129,41 @@
 // 11.2--masala-------------------------------------------------------
 
 // function name(params) {
-//   return params.flat(Infinity).reduce((a, b)=>a+b);
+//   return params.flat(Infinity).reduce((a, b) => a + b);
 // }
-// console.log(name([1,2,3,4,5,6]));
+// console.log(name([1, 2, 3, 4, 5, 6]));
+// 12-masala
+// const arr = ["nok", "olma", "banan", "shaftoli"];
+
+// function funct(para) {
+//   let par = "";
+//   for (let i = 0; i < para.length; i++) {
+//     if (para[i].length >= par.length) {
+//       par = para[i];
+//     }
+//   }
+//   return par;
+// }
+
+// console.log(funct(arr))
+// 13-masala
+// function kara(p) {
+//   for (let i = 1; i <= p; i++) {
+//     for (let g = 1; g <= 10; g++) {
+//       console.log(`${i} x ${g}== ${i * g}`);
+//     }
+//   }
+// }
+// kara(3)
+// 14-masala arrayni qushish
+// const array = [1, 2, 3];
+// function fun(p) {
+//   if (p.length === 0) {
+//     return 0;
+//   }
+//   return p[0] + fun(p.slice(1));
+// }
+// console.log(fun(array));
+
+
+
