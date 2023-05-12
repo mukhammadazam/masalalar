@@ -114,6 +114,10 @@
 //   }
 // }
 // console.log(name1(5));
+
+
+
+
 // 11-masala----------------------------------------------------
 // function massivYigindisi(massiv) {
 //   if (massiv.length === 0) {
@@ -126,12 +130,19 @@
 // const massiv = [1, 2, 3, 4, 5];
 // const yigindi = massivYigindisi(massiv);
 // console.log(yigindi); // 15
+
+
+
+
 // 11.2--masala-------------------------------------------------------
 
 // function name(params) {
 //   return params.flat(Infinity).reduce((a, b) => a + b);
 // }
 // console.log(name([1, 2, 3, 4, 5, 6]));
+
+
+
 // 12-masala
 // const arr = ["nok", "olma", "banan", "shaftoli"];
 
@@ -146,6 +157,9 @@
 // }
 
 // console.log(funct(arr))
+
+
+
 // 13-masala
 // function kara(p) {
 //   for (let i = 1; i <= p; i++) {
@@ -155,6 +169,10 @@
 //   }
 // }
 // kara(3)
+
+
+
+
 // 14-masala arrayni qushish
 // const array = [1, 2, 3];
 // function fun(p) {
@@ -165,5 +183,18 @@
 // }
 // console.log(fun(array));
 
+
+
+
+// 15-masala
+// arraylarni qushish forda
+// function func(pa) {
+//   let sum = 0;
+//   for (let i = 0; i < pa.length; i++) {
+//     sum += pa[i];
+//   }
+//   return sum;
+// }
+// console.log(func(array))
 
 
