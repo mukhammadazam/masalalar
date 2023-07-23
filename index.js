@@ -160,7 +160,7 @@
 // kara(3)
 
 // 14-masala arrayni qushish
-const array = [];
+// const array = [];
 // function fun(p) {
 //   if (p.length === 0) {
 //     return 0;
@@ -261,7 +261,7 @@ const array = [];
 // console.log(fun("post", "nodir"));
 
 // 19-masala ---------------------------------------
-// const ray = [1, 2, 3, 4, 5, 6, 4, 4, 5, 6, 7, 4, 2, 34,1];
+// const ray = [1, 2, 3];
 
 // function arrayNext(param) {
 //   if (ray[0] < ray.length - 1) {
@@ -388,10 +388,18 @@ const array = [];
 //  Nuqtalar urnini almashtirish.
 // input: "1.1.1.1"
 // output:"1[.]1[.]1[.]1"
-const apiAddress = "1.1.1.1";
-const changeFunc = (param) => {
-  const arr = param.split(".");
-  const param1 = arr.join("[.]");
-  console.log(param1)
-};
-changeFunc(apiAddress);
+// const apiAddress = "1.1.1.1";
+// const changeFunc = (param) => {
+//   const arr = param.split(".");
+//   const param1 = arr.join("[.]");
+//   console.log(param1)
+// };
+// changeFunc(apiAddress);
+
+// 3-masala
+const arr = [1, 2, 3, 4];
+// // 2,4,6,8
+function func(param) {
+ return param.map((el)=>(el*2))
+}
+console.log(func(arr));
