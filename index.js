@@ -400,6 +400,12 @@
 const arr = [1, 2, 3, 4];
 // // 2,4,6,8
 function func(param) {
- return param.map((el)=>(el*2))
+  return param.map((el) => el * 2);
 }
 console.log(func(arr));
+
+const arrFunc = (ar) => {
+ 
+ return ar.reduce((a,b)=>a+b)
+};
+console.log(arrFunc(arr));
