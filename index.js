@@ -374,12 +374,24 @@ const array = [];
 // console.log(func(text));
 
 // 1-masala
-// Arrayninng oxirgi elementining lengthini toping
+// Textning oxirgi elementining lengthini toping
 
-const str = "men uyga ketyapman";
+// const str = "men uyga ketyapman";
 
-const func = (param) => {
-  const arr = param.split(" ");
-  return arr.at(-1).length;
+// const func = (param) => {
+//   const arr = param.split(" ");
+//   return arr.at(-1).length;
+// };
+// console.log(func(str));
+
+// 2-masala
+//  Nuqtalar urnini almashtirish.
+// input: "1.1.1.1"
+// output:"1[.]1[.]1[.]1"
+const apiAddress = "1.1.1.1";
+const changeFunc = (param) => {
+  const arr = param.split(".");
+  const param1 = arr.join("[.]");
+  console.log(param1)
 };
-console.log(func(str));
+changeFunc(apiAddress);
